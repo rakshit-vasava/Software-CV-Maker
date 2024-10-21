@@ -1,0 +1,33 @@
+.textDash{
+    grid-area: text;
+    margin: 25px;
+    
+}
+
+.cardHover:hover{
+    box-shadow: 5px 10px 20px 1px rgba(81, 77, 77, 0.5) !important;
+}
+
+.titleDash{
+    color: white;
+    text-align: center;
+}
+
+.textDash{
+    font-size:0.9rem;
+    padding:0.4rem 1.9rem;
+    color: white;
+
+}
+
+.container-fluid .rowDash{
+    padding-top: 1rem;
+}
+
+.cardBodyDash{
+padding: 2rem 0!important;
+}
+
+.overflowDash{
+    overflow:hidden;
+}

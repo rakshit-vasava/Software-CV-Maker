@@ -1,0 +1,25 @@
+.btn-circle.btn-sm {
+  margin: 0 5px 0 5px;
+  width: 33px;
+  height: 33px;
+  padding: 0px 0px;
+  border-radius: 16px;
+  font-size: 14px;
+  text-align: center;
+}
+.btn-circle.btn-md {
+  width: 50px;
+  height: 50px;
+  padding: 7px 10px;
+  border-radius: 25px;
+  font-size: 12px;
+  text-align: center;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 14px;
+  text-align: center;
+}

@@ -1,0 +1,73 @@
+.screenView2 {
+  width: 100%;
+  height: 100%;
+  bottom: 0px;
+  display: flex;
+  overflow: hidden;
+}
+
+.sidebar2 {
+  flex: 3;
+  top: 90px; /*navbar-height*/
+  bottom: 0;
+  background: #202020; /*sidebar-background*/
+  overflow-y: auto;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.05);
+
+  /*position: fixed;
+  right: 80%;
+  /*max-width: 100%;
+  min-width: 0%;
+  width: 100%;
+  height: 88%;*/
+  
+}
+
+.template2 {
+  flex: 7;
+  bottom: 0;
+  overflow-y: auto;
+  background-color: #fff;
+
+  /*left: 28%;*/
+}
+
+/* &:hover {
+    background: hsl(0, 0%, 96%); /*white-ter: hsl(0, 0%, 96%)
+}
+*/  
+.cvtitle{
+  background-color: #202020;
+  color:white;
+  width:100%;
+  margin: 0;
+  font-weight: 400;
+  padding:5px;
+  left:0;
+  border-style: solid;
+  border-width: thin;
+  border-color: #3c4c51;
+  /*font-size: 24px;
+  text-align: center;
+  
+ /*box-shadow:0px -1px 5px #707070;*/
+}
+
+.bgcolor:hover {
+  color: #33CCFF !important;
+  cursor: pointer;
+}
+ 
+@media only screen and (max-width: 1000px) {
+  .screenView2 {
+    flex-direction: column;
+  }
+  .sidebar2 {
+    flex: 1;
+  }
+
+  .template2 {
+    flex: 1;
+  }
+  
+}

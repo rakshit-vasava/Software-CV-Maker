@@ -1,0 +1,43 @@
+.card-textTempList{
+    grid-area: text;
+    margin: 25px;
+    
+}
+
+.containerTempList{
+    align-items: center;
+    left: "50%";
+}
+
+.card-stats{
+    grid-area: stats;
+}
+
+.cardHover:hover{
+    box-shadow: 5px 10px 20px 1px rgba(81, 77, 77, 0.5) !important;
+}
+
+.titleTempList{
+    color: white;
+    text-align: center;
+}
+
+.textTempList{
+    font-size:0.9rem;
+    padding:0.4rem 1.9rem;
+    color: white;
+
+}
+
+.container-fluid .rowTempList{
+    padding-top: 1rem;
+}
+
+.cardBodyTempList{
+padding: 2rem 0!important;
+}
+
+.overflowTempList{
+    overflow:hidden;
+}
+
